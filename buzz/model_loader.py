@@ -14,6 +14,7 @@ import faster_whisper
 import huggingface_hub
 import requests
 import whisper
+import intel_extension_for_pytorch as ipex
 from PyQt6.QtCore import QObject, pyqtSignal, QRunnable
 from platformdirs import user_cache_dir
 from tqdm.auto import tqdm
